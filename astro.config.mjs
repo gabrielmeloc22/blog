@@ -6,5 +6,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: "https://gabrielmeloc22.github.io",
+  base: "blog",
   integrations: [mdx(), sitemap(), tailwind()],
 });
